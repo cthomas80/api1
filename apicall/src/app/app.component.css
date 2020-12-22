@@ -1,0 +1,19 @@
+.btn{
+color:white;
+background-color: teal;
+border: 2px solid black;
+height:50px;
+width: 200px;
+box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+transition: all 0.3s ease 0s;
+cursor: pointer;
+outline: none;
+}
+.container{
+    margin-left: 45%;
+    margin-top: 200px;;
+}
+.nameReturn{
+    margin-top:30px;
+    margin-left:20px;
+}

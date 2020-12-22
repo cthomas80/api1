@@ -1,0 +1,7 @@
+<div class="container">
+  <button type="button" class="btn" [disabled]="button" (click)="onClick();">Get the last name!</button>
+  <div class="nameReturn">
+    <span style="color:red;" *ngIf="button === true">{{nameReturned}}</span>
+    <span [hidden]="yes" style="color:green;" *ngIf="button === false">The last name is {{ lastName }}.</span>
+  </div>
+</div>
